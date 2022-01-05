@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.container {
+    position: absolute;
+    top: 15%;
+    margin: -25px 0 0 -25px;
+}
+
+.card {
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 590px;
+}
+
+.eth-logo {
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.title {
+    color: #fff;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.slogan {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    padding: 25px;
+    line-height: 1.5;
+}
+
+.timeline div {
+    padding-left: 25px;
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+
+.one {
+    padding-right: 60px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.one img {
+    position: relative;
+    top: 2px;
+    left: -3px;
+}
+
+.two {
+    font-size: 16px;
+    margin-left: 18px;
+}
+
+.two img {
+    position: relative;
+    top: 2px;
+    left: -3px;
+}
+
+.creator {
+    width: 300px;
+    height: auto;
+    padding-left: 20px;
+    margin: 5px;
+    display: flex;
+}
+
+.line {
+    width: 305px;
+    height: 5px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.profile {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 35px;
+}
+
+.left {
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.name {
+    color: #fff;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+    transition: color 0.5s;
+    cursor: pointer;
+}
